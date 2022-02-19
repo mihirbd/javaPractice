@@ -16,7 +16,6 @@ public static void main(String[] args) {
 	Scanner input = new Scanner(System.in); 
 	System.out.println("please input your Number for show the times Table: ");
 	int num=input.nextInt();
-	
 	for(int a=1; a<=10; a++){
 		System.out.println(num+" x "+ a+ " = "+ num*a );
 	}

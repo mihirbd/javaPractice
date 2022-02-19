@@ -250,9 +250,9 @@ public class Practice {
 			 System.out.println(num+" is Odd Number.");
 		 }
 		
-		System.out.println(num+" hi java");
-		System.out.println(num+" hi java1");
-		System.out.println(num+" hi java2");
+		System.out.println("hi java");
+		System.out.println("hi java");System.out.println("hi java");System.out.println("hi java");
+		
 		
 		//user define Function
 		//myfunc();
