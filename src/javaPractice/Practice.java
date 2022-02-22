@@ -236,7 +236,7 @@ public class Practice {
 		System.out.print("Enter an integer (the input ends if it is 0): ");
 		 data = input.nextInt();
 		 }
-		 */
+		 
 		
 		// System.out.println("The sum is " + sum);
 		 
@@ -252,6 +252,43 @@ public class Practice {
 		
 		System.out.println("hi java");
 		System.out.println("hi java");System.out.println("hi java");System.out.println("hi java");
+		
+		
+		int factorial=1;
+		for(int i=1; i<=5; i++) {
+			factorial*=i;
+		}
+		System.out.println(factorial);
+*/		
+		Scanner input=new Scanner(System.in);
+		System.out.println("please input a number: ");
+		int number=input.nextInt();
+		
+		boolean isprime=true;
+		if(number==1) {
+			System.out.println("1 is not a prime number nor composite number; ");	
+		}else if(number>1) {
+			for(int i=2; i<number; i++) {
+				if(number%i==0) {
+					isprime=false;
+					break;
+				}
+			}
+			if(isprime) {
+				System.out.println("is a prime number:");
+			}else {
+				System.out.println("not a prime number");
+			}
+			
+		
+		}
+		
+		
+			
+			
+		
+		
+		
 		
 		
 		//user define Function

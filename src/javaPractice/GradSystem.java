@@ -2,7 +2,6 @@ package javaPractice;
 import java.util.Scanner;
 public class GradSystem {
 	public static void main(String[] args) {
-
 		Scanner input = new Scanner(System.in); 
 		System.out.println("please input your Result: ");
 		double score=input.nextDouble();

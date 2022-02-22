@@ -31,7 +31,7 @@ public static void main(String[] args) {
 	int num3=input.nextInt();
 	
 	System.out.println("The Maximum Number is: "+Math.max(Math.max(num1, num2), Math.max(num3,0)));
-	System.out.println("The Minimum Number is: "+Math.min(Math.max(num1, num2), Math.max(num3,0)));
+	System.out.println("The Minimum Number is: "+Math.min(Math.min(num1, num2), Math.min(num3,Math.min(num1, num2))));
 	
 }
 }

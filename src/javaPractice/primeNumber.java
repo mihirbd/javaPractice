@@ -23,7 +23,8 @@ public class primeNumber {
 	            }else{
 	            	System.out.println(number+" is a not prime number");
 	            }
-	        }else{
+	        }
+	            else{
 	        	System.out.println("The number is not a prime number.");
 	        }
 	}
